@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Initiering af et projekt - RACI</title>
+  <title>Ledelse af et projekt - RACI</title>
   <style>
     * { box-sizing: border-box; }
     body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif; margin: 0; padding: 15px; background: #f8fafc; color: #1e293b; }
@@ -34,7 +34,7 @@
 </head>
 <body>
 <div class="container">
-  <h2>Tabel 15.2: RACI-matrix til initiering af et projekt</h2>
+  <h2>Tabel 14.2: RACI-matrix til ledelse af et projekt</h2>
   <p class="instructions">Træk og slip de manglende bogstaver (R, A, C, I) hen i de stiplede felter, eller klik på bogstavet og derefter på det felt det passer til.</p>
   <p class="raci-legend"><strong>R</strong> = Ansvarlig (Responsible) | <strong>A</strong> = Hovedansvarlig (Accountable) | <strong>C</strong> = Konsulteret (Consulted) | <strong>I</strong> = Informeret (Informed)</p>
   <div class="palette">
@@ -52,32 +52,24 @@
       </thead>
       <tbody>
         <tr>
-          <td>Aftale betingelserne for tilpasning</td>
-          <td><span class="static-val">-</span></td><td><span class="static-val">A</span></td><td><span class="static-val">C</span></td><td><span class="static-val">C</span></td><td><span class="static-val">R</span></td><td><span class="static-val">C</span></td><td><span class="static-val">C</span></td><td><span class="static-val">I</span></td>
+          <td>Godkende initiering</td>
+          <td><span class="static-val">I</span></td><td><span class="static-val">A/R</span></td><td><span class="static-val">-</span></td><td><span class="static-val">-</span></td><td><span class="static-val">-</span></td><td><span class="static-val">-</span></td><td><span class="static-val">-</span></td><td><span class="static-val">-</span></td>
         </tr>
         <tr>
-          <td>Aftale tilgangene til styring</td>
-          <td><span class="static-val">-</span></td><td><span class="static-val">A</span></td><td><span class="static-val">C</span></td><td><span class="static-val">C</span></td><td><span class="static-val">R</span></td><td><span class="static-val">C</span></td><td><span class="static-val">C</span></td><td><span class="static-val">I</span></td>
+          <td>Godkende projektet</td>
+          <td><span class="static-val">I</span></td><td><span class="static-val">A/R</span></td><td><span class="static-val">C</span></td><td><span class="static-val">C</span></td><td><span class="static-val">I</span></td><td><span class="static-val">I</span></td><td><span class="static-val">C</span></td><td><span class="static-val">I</span></td>
         </tr>
         <tr>
-          <td>Etablere projektets styringselementer</td>
-          <td><span class="static-val">-</span></td><td><span class="static-val">A</span></td><td><span class="static-val">C</span></td><td><span class="static-val">C</span></td><td><span class="static-val">R</span></td><td><span class="static-val">C</span></td><td><span class="static-val">C</span></td><td><span class="static-val">I</span></td>
+          <td>Give ad. hoc. vejledning</td>
+          <td><span class="static-val">C</span></td><td><span class="static-val">A/R</span></td><td><span class="static-val">R</span></td><td><span class="static-val">R</span></td><td><span class="static-val">C/I</span></td><td><span class="static-val">I</span></td><td><div class="drop-zone" data-ans="C"></div></td><td><span class="static-val">I</span></td>
         </tr>
         <tr>
-          <td>Udarbejde projektplanen</td>
-          <td><span class="static-val">-</span></td><td><span class="static-val">A</span></td><td><span class="static-val">C</span></td><td><span class="static-val">C</span></td><td><span class="static-val">R</span></td><td><span class="static-val">C</span></td><td><span class="static-val">C</span></td><td><span class="static-val">C</span></td>
+          <td>Godkende en fase- eller afvigelsesplan</td>
+          <td><div class="drop-zone" data-ans="I"></div></td><td><span class="static-val">A/R</span></td><td><div class="drop-zone" data-ans="C"></div></td><td><div class="drop-zone" data-ans="C"></div></td><td><div class="drop-zone" data-ans="I"></div></td><td><div class="drop-zone" data-ans="I"></div></td><td><div class="drop-zone" data-ans="C"></div></td><td><span class="static-val">I</span></td>
         </tr>
         <tr>
-          <td>Udarbejde den detaljerede business case</td>
-          <td><span class="static-val">-</span></td><td><span class="static-val">A</span></td><td><span class="static-val">C</span></td><td><span class="static-val">C</span></td><td><span class="static-val">R</span></td><td><span class="static-val">C</span></td><td><span class="static-val">C</span></td><td><span class="static-val">I</span></td>
-        </tr>
-        <tr>
-          <td>Samle projektinitieringsdokumentationen</td>
-          <td><span class="static-val">-</span></td><td><span class="static-val">C</span></td><td><span class="static-val">C</span></td><td><span class="static-val">C</span></td><td><span class="static-val">A</span></td><td><span class="static-val">C</span></td><td><span class="static-val">C</span></td><td><span class="static-val">R</span></td>
-        </tr>
-        <tr>
-          <td>Anmode om godkendelse af projekt</td>
-          <td><div class="drop-zone" data-ans="I"></div></td><td><span class="static-val">A</span></td><td><div class="drop-zone" data-ans="C"></div></td><td><div class="drop-zone" data-ans="C"></div></td><td><span class="static-val">R</span></td><td><div class="drop-zone" data-ans="I"></div></td><td><div class="drop-zone" data-ans="C"></div></td><td><div class="drop-zone" data-ans="I"></div></td>
+          <td>Godkende projektafslutning</td>
+          <td><span class="static-val">I</span></td><td><span class="static-val">A/R</span></td><td><span class="static-val">C</span></td><td><span class="static-val">C</span></td><td><span class="static-val">I</span></td><td><span class="static-val">I</span></td><td><span class="static-val">C</span></td><td><span class="static-val">I</span></td>
         </tr>
       </tbody>
     </table>
